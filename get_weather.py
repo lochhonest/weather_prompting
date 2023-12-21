@@ -5,7 +5,7 @@ import pandas as pd
 
 def get_weather():
     cities = ['New York', 'London', 'Paris', 'Vienna', 'Madrid'] 
-    api_key = '6ec60359ea857c86c17194d5a955c132'
+    api_key = WEATHER_API_KEY
     def get_weather_from_api(cities, api_key):
         total_data = []
         for city in cities:
